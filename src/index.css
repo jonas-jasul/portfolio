@@ -26,9 +26,6 @@
 :root {
   font-family: FuturaPTMedium;
   color-scheme: light dark;
-  color: rgba(20, 20, 20, 0.87);
-  background-color: #f0efef;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -36,18 +33,20 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body > #root > div {
+body {
   height: 100vh;
 }
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+html {
+  scroll-snap-type: y mandatory;
 }
-*{
+
+section {
+  scroll-snap-align: start;
+}
+
+
+* {
   margin: 0;
   padding: 0;
- }
+}
