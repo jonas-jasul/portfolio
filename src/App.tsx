@@ -4,6 +4,7 @@ import About from './components/about'
 import Navbar from './components/navbar'
 import { createContext } from "react";
 import Projects from './components/projects';
+import Skills from './components/skills';
 
 interface ThemeContextType {
   theme: string;
@@ -29,7 +30,9 @@ function App() {
         <div className='main-container' id={theme}>
           <Navbar />
           <section><About /></section>
+          <section><Skills /></section>
           <section><Projects /></section>
+
         </div>
       </ThemeContext.Provider>
     </>

@@ -18,7 +18,7 @@
 }
 
 #light .overlay {
-    background-color: #ffffff;
+    background-color: #eae3e3;
 }
 
 #dark .overlay {
@@ -31,4 +31,16 @@
 
 #dark .right-cont {
     background-color: rgb(53, 63, 62);
+}
+
+.projects-line {
+    background-color: rgb(53, 63, 62);
+}
+
+.skills-left-cont {
+    background-color: rgb(53, 63, 62);
+}
+
+#light .skill-logos {
+    color: black
 }

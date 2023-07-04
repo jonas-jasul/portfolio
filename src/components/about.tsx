@@ -19,7 +19,7 @@ export default function About() {
                                 <div className="circle w-3 h-3 rounded-full bg-lime-300 mx-1"></div>
                             </div>
 
-                            <div className="code-tab h-7 flex flex-row justify-center items-center p-3 rounded-tl-lg rounded-tr-lg bg-slate-700 ml-4" style={{ fontFamily: "HackRegular" }}>
+                            <div className="code-tab h-7 flex flex-row justify-center items-center p-3 rounded-tl-lg rounded-tr-lg bg-slate-700 ml-1" style={{ fontFamily: "HackRegular" }}>
                                 <img className="w-4 h-4 mr-1" src="/assets/html_icon.png" /><span className="text-white text-xs">Jonas.html</span>
                             </div>
                         </div>
@@ -27,7 +27,7 @@ export default function About() {
                             <p className="text-xl mt-1 text-white">
                                 &lt;<span className="text-red-400">h3</span>&gt;Esu tinklalapių programuotojas&lt;/<span className="text-red-400">h3</span>&gt;
                                 <br /> <br />
-                                &lt;<span className="text-red-400">p</span>&gt;Mano aistra - kompiuteriai ir programavimas.&lt;/<span className="text-red-400">p</span>&gt;
+                                &lt;<span className="text-red-400">p</span>&gt;Mano aistra - programavimas ir problemų sprendimas, naudojant naujausias technologijas.&lt;/<span className="text-red-400">p</span>&gt;
                                 <span className="animated-caret text-blue-400"><AnimatedCaret /></span>
                             </p>
                         </div>
