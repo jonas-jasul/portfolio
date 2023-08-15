@@ -6,8 +6,9 @@ import { SiNextdotjs, SiPhp, SiLaravel, SiBootstrap } from 'react-icons/si';
 export default function Projects() {
     return (
         <div className="flex justify-start items-center flex-col h-[100vh]">
-            <h2 className="text-4xl mt-6 mb-2 text-emerald-400">Projektai</h2>
-            <div className='projects-line w-full h-3 mb-3'></div>
+            <div className='projects-line w-full h-20 mb-3'>
+                <h2 className="text-4xl mt-6 mb-2 text-emerald-400 text-center">Projektai</h2>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text">
                 <div className="first">
                     <div className="group relative rounded-lg border-2 border-emerald-700 h-40 w-72 lg:w-80 lg:h-48">
@@ -45,7 +46,7 @@ export default function Projects() {
                                 <h2 className='text-xl text-center'>Elektronikos taisyklos valdymo sistema</h2>
                                 <div className='logos my-3'>
                                     <a className='m-2' href='https://github.com/jonas-jasul/elektronikosTaisykla' target="_blank" ><button><BsGithub size={'2.3em'} /></button></a>
-                                    <a className='m-2' href='https://elektronikostaisykla.000webhostapp.com/welcome.php/' target="_blank" ><button><BsLink45Deg size={'2.5em'} /></button></a>
+                                    <a className='m-2' href='https://elektronikostaisykla.000webhostapp.com/' target="_blank" ><button><BsLink45Deg size={'2.5em'} /></button></a>
                                 </div>
                             </div>
                         </div>
