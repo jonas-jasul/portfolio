@@ -6,9 +6,9 @@ import { SiNextdotjs, SiMicrosoftazure, SiPhp, SiCsharp } from 'react-icons/si';
 export default function Skills() {
 
     return (
-        <div className="flex h-[100vh] flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row lg:h-[70vh]">
             <div className="skills-left-cont w-full h-2/5 lg:w-2/5 lg:h-full flex flex-col justify-center items-center p-2">
-                <h2 className=" text-4xl my-6 text-emerald-400">Apie mane</h2>
+                <h2 className=" text-4xl my-6 text-emerald-400">Mano įgūdžiai</h2>
                 <div className="skills-left-body justify-center items-center">
                     <p className="text-2xl text-center p-3">Aš niekada nenustoju mokytis,
                         domiuosi naujomis programavimo technologijomis ir vis tobulėju.</p>

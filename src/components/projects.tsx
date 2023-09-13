@@ -5,7 +5,7 @@ import { SiNextdotjs, SiPhp, SiLaravel, SiBootstrap } from 'react-icons/si';
 
 export default function Projects() {
     return (
-        <div className="flex justify-start items-center flex-col h-[100vh]">
+        <div className="flex justify-start items-center flex-col lg:h-[80vh]">
             <div className='projects-line w-full h-12 items-center mb-3 flex justify-center'>
                 <h2 className="text-4xl text-emerald-400 text-center">Projektai</h2>
             </div>
