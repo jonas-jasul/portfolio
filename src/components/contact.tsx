@@ -2,6 +2,7 @@ import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 export default function Contact() {
     return (
         <div className="h-[100vh]">
+            <div className="transition-line lg:w-full lg:h-4 "></div>
             <div className='flex flex-col lg:flex-row-reverse'>
                 <div className="contact-div w-full h-[30vh] lg:w-1/3 lg:h-[100vh]">
                     <div className="contact-heading-div h-full flex justify-center items-center">

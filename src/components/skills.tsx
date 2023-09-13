@@ -13,7 +13,7 @@ export default function Skills() {
                     <p className="text-2xl text-center p-3">Aš niekada nenustoju mokytis,
                         domiuosi naujomis programavimo technologijomis ir vis tobulėju.</p>
 
-                    <ul className='flex justify-center items-center flex-col'>
+                    <ul className='flex justify-center items-center flex-col pb-3'>
                         <li className='flex items-center text-xl'>
                             <BsGlobe className="text-cyan-300 mr-1" />
                             Kuriu tinklalapius

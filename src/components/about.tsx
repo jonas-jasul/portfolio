@@ -35,14 +35,17 @@ export default function About() {
                 </div>
 
                 <div className="right-cont w-full mt-3 lg:mt-0 lg:w-1/3 pt-6 h-full lg:pt-44">
-                    <div className="pic-cont h-48 md:h-60 lg:h-80">
+                    <div className="pic-cont h-40 md:h-60 lg:h-80">
                         <img className="object-contain absolute right-[26%] md:right-[36%] lg:right-[20%] rounded-full w-52 lg:w-80 md:w-64" src="/assets/me.jpg"></img>
                     </div>
                     <div className="cvbuttons m-2">
-                        <button className="button p-2 border-2 rounded-xl hover:bg-gray-200 hover:text-black hover:transition-all border-emerald-500">Atsisiųsti CV</button>
+                        <a href="\assets\cv.pdf" download="Jonas CV" target="_blank">
+                            <button className="button p-2 border-2 rounded-xl hover:bg-gray-200 hover:text-black hover:transition-all border-emerald-500">Atsisiųsti CV</button>
+                        </a>
                     </div>
                 </div>
             </div>
+            <div className="transition-line lg:w-full lg:h-4 "></div>
         </div>
     )
 }
