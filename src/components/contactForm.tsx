@@ -42,7 +42,7 @@ export default function ContactForm() {
 
                 </div>
                 <button type="submit" className="text mx-auto bg-emerald-400 rounded-md px-5 py-2 bg-form-send">Siųsti</button>
-                <FormSubmitModal showModal={showModal} setShowModal={setShowModal} />
+                <FormSubmitModal showModal={showModal} />
             </div>
         </form>
     )
