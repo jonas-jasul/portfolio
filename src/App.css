@@ -9,6 +9,14 @@
     background-color: #2c3533;
 }
 
+#light .form-bg {
+    background-color: #f6f3f3;
+}
+
+#dark .form-bg {
+    background-color: rgb(53, 63, 62);
+}
+
 #light .hello {
     color:#213547
 }
