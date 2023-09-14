@@ -1,7 +1,7 @@
 import AnimatedCaret from "./animatedCaret";
 import { DiGithubFull } from 'react-icons/di';
 import { BsLinkedin } from 'react-icons/bs';
-import { Slide, Bounce } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 export default function About() {
     return (
 
