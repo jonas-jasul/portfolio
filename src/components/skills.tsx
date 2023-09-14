@@ -41,44 +41,44 @@ export default function Skills() {
             <Slide direction='right' triggerOnce={true} fraction={0.6}>
                 <div className="skills-right-cont w-full lg:w-3/5 flex justify-center h-full items-center mx-auto my-auto">
                     <div className='skill-logos flex flex-wrap m-20 justify-center'>
-                        <div className='p-2 hover:text-blue-400 techLogos'>
+                        <div className='p-2 techLogos' id='react'>
                             <BiLogoReact className="mx-auto" size={'4em'} />
                             <p className='text-center'>React.js</p>
                         </div>
-                        <div className='p-2 hover:text-black techLogos'>
+                        <div className='p-2 techLogos' id='nextjs'>
                             <SiNextdotjs className="mx-auto" size={'4em'} />
                             <p className='text-center'>Next.js</p>
                         </div>
-                        <div className='p-2 hover:text-yellow-300 techLogos'>
+                        <div className='p-2 techLogos' id='javascript'>
                             <BiLogoJavascript className="mx-auto" size={'4em'} />
                             <p className='text-center'>JavaScript</p>
                         </div>
-                        <div className='p-2 hover:text-cyan-300 techLogos'>
+                        <div className='p-2 techLogos' id='sql'>
                             <BsDatabase className="mx-auto" size={'4em'} />
                             <p className='text-center'>SQL</p>
                         </div>
-                        <div className='p-2 hover:text-orange-500 techLogos'>
+                        <div className='p-2 techLogos' id='html'>
                             <BiLogoHtml5 className="mx-auto" size={'4em'} />
                             <p className='text-center'>HTML</p>
                         </div>
 
-                        <div className='p-2 hover:text-cyan-600 techLogos'>
+                        <div className='p-2 techLogos' id='css'>
                             <BiLogoCss3 className='mx-auto' size={'4em'} />
                             <p className='text-center'>CSS</p>
                         </div>
-                        <div className='p-2 hover:text-teal-400 techLogos'>
+                        <div className='p-2 techLogos' id='tailwind'>
                             <BiLogoTailwindCss className='mx-auto' size={'4em'} />
                             <p className='text-center'>Tailwind CSS</p>
                         </div>
-                        <div className='p-2 hover:text-sky-600 techLogos'>
+                        <div className='p-2 techLogos' id='azure'>
                             <SiMicrosoftazure className='mx-auto' size={'4em'} />
                             <p className='text-center'>Azure</p>
                         </div>
-                        <div className='p-2 hover:text-indigo-400 techLogos'>
+                        <div className='p-2 techLogos' id='php'>
                             <SiPhp className='mx-auto' size={'4em'} />
                             <p className='text-center'>PHP</p>
                         </div>
-                        <div className='p-2 hover:text-violet-600 techLogos'>
+                        <div className='p-2 techLogos' id='csharp'>
                             <SiCsharp className='mx-auto' size={'4em'} />
                             <p className='text-center'>C#</p>
                         </div>

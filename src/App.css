@@ -19,34 +19,86 @@
 }
 
 #light .hello {
-    color:#213547
+    color: #213547
 }
 
 #light .text {
-    color:#213547
+    color: #213547
 }
 
 .otherText {
     color: #f2eeee;
 }
 
-.techLogos #dark {
-    color:#f2eeee;
+#dark #react:hover,
+#light #react:hover {
+    color: rgb(96 165 250);
 }
 
-.techLogos #light {
-    color:#213547
+#dark #nextjs:hover,
+#light #nextjs:hover {
+    color: rgb(0, 0, 0);
+}
+
+#dark #javascript:hover,
+#light #javascript:hover {
+    color: rgb(241, 203, 12);
+}
+
+#dark #sql:hover,
+#light #sql:hover {
+    color: rgb(103 232 249);
+}
+
+#dark #html:hover,
+#light #html:hover {
+    color: rgb(249 115 22);
+}
+
+#dark #css:hover,
+#light #css:hover {
+    color: rgb(8 145 178);
+}
+
+#dark #tailwind:hover,
+#light #tailwind:hover {
+    color: rgb(45 212 191);
+}
+
+#dark #azure:hover,
+#light #azure:hover {
+    color: rgb(2 132 199);
+}
+
+#dark #php:hover,
+#light #php:hover {
+    color: rgb(129 140 248);
+}
+
+
+#dark #csharp:hover,
+#light #csharp:hover {
+    color: rgb(124 58 237);
+}
+
+#dark .techLogos {
+    color: #f2eeee;
+}
+
+#light .techLogos {
+    color: #213547
 }
 
 #dark .text {
     color: #f2eeee;
 }
+
 #light .overlay {
     background-color: #eae3e3;
 }
 
 #dark .overlay {
-    background-color: #213547;  
+    background-color: #213547;
 }
 
 #light .right-cont {
@@ -68,6 +120,7 @@
 #light .skill-logos {
     color: black
 }
+
 .contact-div {
     background-color: rgb(53, 63, 62);
 }

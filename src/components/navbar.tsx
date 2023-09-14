@@ -5,7 +5,7 @@ import { BiSolidMoon, BiSun } from 'react-icons/bi';
 export default function Navbar() {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return (
-        <div className="side-navbar fixed p-1 w-[98vw] mt-2 mx-2 lg:w-16 lg:h-[55vh] lg:top-50 lg:right-3 lg:mt-28 ">
+        <div className="side-navbar fixed p-1 w-[98vw] mt-2 mx-2 lg:w-16 lg:h-[55vh] lg:top-50 lg:right-3 lg:mt-28 z-50 ">
             <ReactSwitch onChange={toggleTheme} checked={theme === "light"} onColor='#213547' handleDiameter={18}
                 checkedIcon={
                     <div className='flex justify-center items-center h-full text-yellow-300'>
