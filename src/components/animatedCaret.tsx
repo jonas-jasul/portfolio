@@ -12,5 +12,5 @@ export default function AnimatedCaret() {
         return () => clearInterval(interval);
     }, [])
 
-    return <span className={isVisible ? "animated-caret" : "animated-caret hidden"}>|</span>;
+    return <span className={isVisible ? "animated-caret" : "animated-caret invisible"}>|</span>;
 }

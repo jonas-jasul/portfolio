@@ -12,7 +12,7 @@ export default function About() {
                     <Slide triggerOnce={true}>
                         <div className="left-text w-2/3">
                             <h2 className="text-6xl">
-                                <span className="hello">Labas, aš</span> <span className="text-emerald-500">Jonas Jasulevičius</span><span className="hello">!</span>
+                                <span className="hello text">Labas, aš</span> <span className="text-emerald-500">Jonas Jasulevičius</span><span className="hello text">!</span>
                             </h2>
                         </div>
                         <div className="code-block bg-slate-700 rounded-lg mt-2 w-11/12 lg:w-4/6 md:w-2/3">
@@ -65,7 +65,7 @@ export default function About() {
 
                     <div className="cvbuttons mx-2 my-1">
                         <a href="\assets\cv.pdf" download="Jonas CV" target="_blank">
-                            <button className="button p-2 border-2 rounded-xl hover:bg-gray-200 hover:text-black hover:transition-all border-emerald-500">Atsisiųsti CV</button>
+                            <button className="button p-2 border-2 rounded-xl hover:bg-gray-200 hover:text-black hover:transition-all otherText border-emerald-500">Atsisiųsti CV</button>
                         </a>
                     </div>
                 </div>

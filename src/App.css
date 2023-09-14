@@ -26,8 +26,20 @@
     color:#213547
 }
 
+.otherText {
+    color: #f2eeee;
+}
+
+.techLogos #dark {
+    color:#f2eeee;
+}
+
+.techLogos #light {
+    color:#213547
+}
+
 #dark .text {
-    color: #eae3e3;
+    color: #f2eeee;
 }
 #light .overlay {
     background-color: #eae3e3;
