@@ -8,9 +8,9 @@ export default function Skills() {
 
     return (
 
-        <div className="flex flex-col lg:flex-row lg:h-[70vh]">
-            <div className="skills-left-cont w-full h-2/5 lg:w-2/5 lg:h-full flex flex-col justify-center items-center p-2">
-                <h2 className=" text-4xl my-6 text-emerald-400">Mano įgūdžiai</h2>
+        <div className="flex flex-col lg:flex-row lg:h-[45rem]">
+            <div className="skills-left-cont w-full h-2/5 lg:w-2/5 lg:h-full flex flex-col justify-center items-center p-2 shadow-xl">
+                <h2 className=" text-5xl my-6 text-emerald-400">Mano įgūdžiai</h2>
                 <div className="skills-left-body justify-center items-center">
                     <p className="text-2xl text-center p-3 otherText">Aš niekada nenustoju mokytis,
                         domiuosi naujomis programavimo technologijomis ir vis tobulėju.</p>

@@ -15,7 +15,7 @@ export default function About() {
                                 <span className="hello text">Labas, aš</span> <span className="text-emerald-500">Jonas Jasulevičius</span><span className="hello text">!</span>
                             </h2>
                         </div>
-                        <div className="code-block bg-slate-700 rounded-lg mt-2 w-11/12 lg:w-4/6 md:w-2/3">
+                        <div className="code-block bg-slate-700 rounded-lg mt-2 w-11/12 lg:w-4/6 md:w-2/3 shadow-lg">
                             <div className="code-top bg-slate-600 rounded-lg flex flex-row">
                                 <div className="circles-cont flex flex-row justify-center items-center p-2">
                                     <div className="circle w-3 h-3 rounded-full bg-red-400 mx-1"></div>
@@ -58,9 +58,9 @@ export default function About() {
                 </div>
 
 
-                <div className="right-cont w-full mt-3 lg:mt-0 lg:w-1/3 pt-6 h-full lg:pt-44">
+                <div className="right-cont w-full mt-3 lg:mt-0 lg:w-1/3 pt-6 h-full lg:pt-44 shadow-xl">
                     <div className="pic-cont h-20 md:h-48 lg:h-80">
-                        <img className="object-contain absolute right-[26%] md:right-[36%] lg:right-[20%] w-32 lg:w-80 md:w-64" src="/assets/me.jpg"></img>
+                        <img className="object-contain absolute right-[26%] md:right-[36%] lg:right-[20%] w-32 lg:w-72 md:w-64" src="/assets/me.jpg"></img>
                     </div>
 
                     <div className="cvbuttons mx-2 my-1">
@@ -71,7 +71,6 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="transition-line lg:w-full lg:h-4 "></div>
         </div>
 
     )

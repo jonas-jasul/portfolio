@@ -5,10 +5,10 @@ import { SiNextdotjs, SiPhp, SiLaravel, SiBootstrap } from 'react-icons/si';
 
 export default function Projects() {
     return (
-        <div className="flex justify-start items-center flex-col lg:h-[80vh]">
-            <div className='projects-line w-full h-12 items-center mb-3 flex justify-center'>
-                <h2 className="text-4xl text-emerald-400 text-center">Projektai</h2>
-            </div>
+        <div className="flex justify-start items-center flex-col lg:h-[45rem] mt-10 mb-5">
+            {/* <div className='projects-line w-full h-12 items-center mb-3 flex justify-center'> */}
+                <h2 className="text-5xl text-emerald-500 text-center">Projektai</h2>
+            {/* </div> */}
             <div className='projects-cont flex justify-center items-center mt-16'>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text">
                     <div className="first">

@@ -31,7 +31,7 @@ export default function ContactForm() {
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
             <div className="emailContactForm flex flex-col mb-10">
-                <h2 className="text text-2xl text-center">Parašyk man laišką!</h2>
+                <h2 className="text text-3xl text-center">Parašyk man laišką!</h2>
                 <div className="yourEmail my-4 mx-auto">
                     <input {...register("email", {required: "Privalomas laukas"})} className="senderEmail form-bg text w-80 lg:w-96 h-8 p-2 rounded-md border-2 border-emerald-400" placeholder="Jūsų el. paštas" type="email" />
                     <p className="text-red-500">{errors.email?.message}</p>
