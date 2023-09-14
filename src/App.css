@@ -26,6 +26,9 @@
     color:#213547
 }
 
+#dark .text {
+    color: #eae3e3;
+}
 #light .overlay {
     background-color: #eae3e3;
 }
