@@ -29,7 +29,7 @@ export default function About() {
                             </div>
                             <div className="code-text p-3" style={{ fontFamily: "HackRegular" }}>
                                 <p className="text-xl mt-1 text-white">
-                                    &lt;<span className="text-red-400">h3</span>&gt;Esu tinklalapių programuotojas&lt;/<span className="text-red-400">h3</span>&gt;
+                                    <span className="break-all">&lt;<span className="text-red-400">h3</span>&gt;Esu tinklalapių programuotojas&lt;/<span className="text-red-400">h3</span>&gt;</span>
                                     <br /> <br />
                                     &lt;<span className="text-red-400">p</span>&gt;Mano aistra - programavimas ir problemų sprendimas, naudojant naujausias technologijas.&lt;/<span className="text-red-400">p</span>&gt;
                                     <span className="animated-caret text-blue-400"><AnimatedCaret /></span>
